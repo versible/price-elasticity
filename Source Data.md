@@ -1,7 +1,7 @@
 # Source Data
 Ideal source data is a multi-million row table containing 3+ years history of weekly product store level sales and volume data.  But compromises from the ideal are possible, providing you understand the consequences.  In collecting source data, it is also vital to understand exact definitions of each field.  
 
-Below are considerations for each field in turn.  Conforming to the ideal is less important that understanding exactly what is avaliable, and what consequences that has on the model.
+Below are considerations for each field in turn.  Conforming to the ideal is less important that understanding exactly what is avaliable, and what the consequences are for the model.
 
 ## Week
 * Minimum of 2 full years history (in order to give 1 year of year-on-year data).  Ideally 3 or more years.
@@ -19,8 +19,12 @@ Similar to products, if store level data is available, it is best to take it as 
 ## ~~Price~~ Total Sales
 Price should reflect what *the average shopper experienced*.  The full retail selling price (shelf-edge price) may not be sufficient as it will not include promotional pricing, multibuys, markdowns, etc.
 
-You could collect data on shelf-edge price plus every form of discount, then calculate some suitably weighted average price.  But there is a simpler approach; use total sales (which will reflect the total of every form of price paid) and then divide by total volume (both metrics of course at the product-store-week). 
+You could collect data on shelf-edge price plus every form of discount, then calculate some suitably weighted average price.  But there is a simpler approach; use total sales and divide by total volume.  Hence the source data for a price elasticity model needs sales, not price.
 
 
 ## Volume
 The number of units sold.  "Units" is straight-forward for items sold as units (tins, packets, boxes...).  For items sold by weight or quantity, ensure the unit is the same as used to define the price.  I.e. if apples are priced and sold per KG, ensure the price is per-KG and the volume is in terms of KG (not a count of purchases).
+
+---
+
+© Versible 2022
