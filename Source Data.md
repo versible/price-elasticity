@@ -1,4 +1,4 @@
-# Source Data
+# Price Elasticity - Source Data
 Ideal source data is a multi-million row table containing 3+ years history of weekly product store level sales and volume data.  But compromises from the ideal are possible, providing you understand the consequences.  In collecting source data, it is also vital to understand exact definitions of each field.  
 
 Below are considerations for each field in turn.  Conforming to the ideal is less important that understanding exactly what is avaliable, and what the consequences are for the model.

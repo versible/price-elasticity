@@ -50,7 +50,7 @@ Details are given in the separate `Data Sources.md` file in this repository.
 
 The core of the methodology is a regression to fit a relationship between unit price and volume.  The complexity lies in the work to assemble "unit price" and "volume" measures such that a regression returns a credible and useful output. 
 
-Dtails are given in the separate `Methodology.md` file in this repository. 
+Details are given in the separate `Methodology.md` file in this repository. 
 
 ## Code
 

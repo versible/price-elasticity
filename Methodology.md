@@ -1,4 +1,4 @@
-# Methodology
+# Price Elasticity - Methodology
 
 ## Overview
 
